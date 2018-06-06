@@ -120,24 +120,30 @@ font-family: "Roboto", sans-serif;
 -moz-osx-font-smoothing: grayscale;
 }
 </style>
+
 <body><h1 align="center" style="font-size:38px ;font-family:ubuntu; color:white">List of projects /Consultancy Proposals submitted to different funding agencies</h1>
 
 	 <%
 		if(session.getAttribute("username")==null)
 			response.sendRedirect("login.jsp");
 	%>
+	
+	
+
 <div class="login-page">
 <div class="form">
 	
-    <form action="form1" class="login-form" align="left">
-        
-        Name: <input type="text" name="firstName">
+    <form action="form1" class="login-form" align='left'>
+        Name and associates: <input type="text" name="firstName">
+        					<input type="text" name="firstName">
+        					<input type="text" name="firstName">
+        					<input type="text" name="firstName">
         <br>
         Project Name: <input type="text" name="ProjectName">
         <br>
         Proposal submitted to: <input type="text" name="Proposalsubmission">
         <br>
-        Budgeted Amount: <input type ="text" value=0 name="BudgetName">
+        Budgeted amount: <input type ="text" value=0 name="BudgetName">
         <br>
         Proposal status: <input type ="text" name="proposalstatus">
         <br>
@@ -149,11 +155,6 @@ font-family: "Roboto", sans-serif;
 		</script>
     </form>
     
-    <form action="form1Out.jsp" class="login-form" align="left">
-    
-    <input type="submit" value="Get All Records">    
-    
-    </form>
 </div>
 </div>
 </body>
