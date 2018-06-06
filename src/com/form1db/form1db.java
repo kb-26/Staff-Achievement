@@ -27,8 +27,6 @@ public class form1db {
 			ps1.setString(3, budget);
 			ps1.setString(4, status);
 			
-			
-			
 			ps1.executeUpdate();
 			
 			con.close();  
