@@ -24,7 +24,7 @@ public class form1 extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//ServletOutputStream out = response.getOutputStream();
-		String firstName = request.getParameter("firstName");
+		String firstName[] = request.getParameterValues("firstName");
 	    String ProjectName = request.getParameter("ProjectName");
 	    String Proposalsub = request.getParameter("Proposalsubmission");
 	    String budget = request.getParameter("BudgetName");
@@ -32,8 +32,8 @@ public class form1 extends HttpServlet {
 	    
 	    response.sendRedirect("welcome.jsp");
 	    
-	    form1db f1db=new form1db(firstName,ProjectName,Proposalsub,budget,status);
-	    f1db.insert();
+	   // form1db f1db=new form1db(firstName,ProjectName,Proposalsub,budget,status);
+	   // f1db.insert();
 	    
 	}
 
