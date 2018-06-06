@@ -134,8 +134,8 @@ font-family: "Roboto", sans-serif;
 <div class="form">
 	
     <form action="form1" class="login-form" align='left'>
-        Name and associates: <input type="text" name="firstName">
-        					<input type="text" name="firstName">
+        Name: <input type="text" name="firstName">
+        	associates:<input type="text" name="firstName">
         					<input type="text" name="firstName">
         					<input type="text" name="firstName">
         <br>
