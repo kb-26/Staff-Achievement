@@ -139,7 +139,7 @@ font-family: "Roboto", sans-serif;
 <div class="login-page">
 <div class="form">
 
-<form action="form1" class="login-form" align="left">
+<form action="achievements.jsp" class="login-form" align="left">
 
 <TABLE class="login-form" style="width:100%" id="t01">
 <%
@@ -169,7 +169,7 @@ font-family: "Roboto", sans-serif;
 %>
 
 </TABLE>
-
+	<input type="submit"  value="back">
 </form>
 
 </body>

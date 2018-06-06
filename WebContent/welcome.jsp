@@ -145,8 +145,8 @@ a:hover, a:active {
 	<a href="form2.jsp" >2. Project grants received from funding agencies</a><hr>
 	<a href="form3.jsp">3. Training/Consultancy activities carried out/amount received</a><br>
 	<br><br>
-	<form action="logout">
-        <input type="submit" value="logout">
+	<form action="welcome2.jsp">
+        <input type="submit" value="back">
 	</form>
 		</div>
 	</div>
