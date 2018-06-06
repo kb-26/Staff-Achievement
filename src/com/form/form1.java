@@ -30,12 +30,12 @@ public class form1 extends HttpServlet {
 	    String budget = request.getParameter("BudgetName");
 	    String status = request.getParameter("proposalstatus");  
 	    
-	    response.sendRedirect("welcome.jsp");
+	    response.sendRedirect("welcome2.jsp");
 	    
-<<<<<<< HEAD
+
 	   // form1db f1db=new form1db(firstName,ProjectName,Proposalsub,budget,status);
 	   // f1db.insert();
-=======
+
 	    if(firstName.equals("")) firstName=null;
 	    if(ProjectName.equals("")) ProjectName=null;
 	    if(Proposalsub.equals("")) Proposalsub=null;
@@ -44,7 +44,7 @@ public class form1 extends HttpServlet {
 	    
 	    form1db f1db=new form1db(ProjectName,Proposalsub,budget,status);
 	    f1db.insert();
->>>>>>> 2c5cc15df91ae5e942e7d2652f9e9934decd26d5
+
 	    
 	    Main fH1=new Main(ProjectName);
 	    String abbreviation;
